@@ -18,6 +18,17 @@ No PowerShell, compare o resultado deste comando com o checksum da release, subs
 Get-FileHash '.\Start-Studio-Setup-<versão>-x64.exe' -Algorithm SHA256
 ```
 
+### Se o Microsoft Edge mostrar um aviso no download
+
+O Edge pode informar que o instalador **“isn't commonly downloaded”** (não é baixado com frequência). Se você conferiu que o download vem deste repositório e decidiu continuar, siga os passos abaixo. Os nomes dos botões estão em inglês; podem variar conforme o idioma e a versão do navegador.
+
+1. Abra o painel **Downloads** pelo ícone de download do Edge ou pelo atalho **Ctrl+J**.
+2. Passe o mouse sobre o aviso ao lado de `Start-Studio-Setup-<versão>-x64.exe`. Clique nos **três pontos (…)** do próprio arquivo e escolha **Keep**.
+3. Na janela de confirmação, clique na **seta para baixo (▼) ao lado do botão Delete**. No menu que abrir, escolha **Keep anyway**. Clicar diretamente em **Delete** exclui o download.
+4. Aguarde o download terminar. Depois, abra o instalador na pasta Downloads e siga o assistente de instalação.
+
+Em algumas versões do Edge, é necessário clicar em **Show more** antes de aparecer **Keep anyway**. A [documentação da Microsoft](https://learn.microsoft.com/en-us/troubleshoot/microsoft-edge/development/download-failures#check-security-and-smartscreen-settings) descreve esse fluxo. Estas instruções se referem ao aviso de download pouco conhecido; não exigem desativar o SmartScreen ou o antivírus.
+
 ## Seus arquivos
 
 As alterações feitas no aplicativo são salvas na pasta de páginas escolhida. Os HTMLs, imagens incorporadas e backups ficam separados da instalação. Use `start.html` como página inicial do navegador. O aplicativo permite mover a pasta de dados, exportar o conjunto e restaurar backups como novas páginas.
