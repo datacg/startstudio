@@ -1,38 +1,48 @@
+![Start Studio by DATACG, with a green star tile surrounded by folder, link, globe, and bookmark icons.](assets/startstudio-cover.png)
+
 # Start Studio
 
-Editor visual de páginas iniciais desenvolvido por **Juliano Oliveira / DATACG**, com Codex.
+A visual editor for personal start pages, developed by **Juliano Oliveira / DATACG with support from Codex**.
 
-Organize seus links em coleções, personalize símbolos, emojis, favicons e aparência, e use os HTMLs salvos offline. Interface em português do Brasil, inglês, dinamarquês e italiano. A instalação começa vazia, sem links ou dados pessoais.
+Organize your links into collections, customize symbols, emojis, favicons, and appearance, and use your saved HTML pages offline. The interface is available in Brazilian Portuguese, US English, Danish, and Italian. New installations start empty, with no personal links or data.
 
-## Download para Windows
+## Download for Windows
 
-[Baixar a versão mais recente](https://github.com/datacg/startstudio/releases/latest)
+**[Download the latest release](https://github.com/datacg/startstudio/releases/latest)**
 
-Abra a release e escolha o instalador `Start-Studio-Setup-<versão>-x64.exe`. O aplicativo inclui os componentes necessários; não exige instalar Node.js ou Git. O assistente permite escolher as pastas do programa e das páginas.
+Open the release page and download `Start-Studio-Setup-<version>-x64.exe`. The application includes the components it needs; you do not need to install Node.js or Git. The installer lets you choose separate folders for the application and your pages.
 
-**O instalador desta fase não possui assinatura digital. O Windows pode apresentar avisos de segurança.** Cada release informa a versão e inclui um arquivo `.sha256` para conferir a integridade do download.
+**The current installer is not digitally signed. Windows may display security warnings.** Each release lists its version and includes a `.sha256` file so you can verify the download.
 
-No PowerShell, compare o resultado deste comando com o checksum da release, substituindo o nome pelo arquivo baixado:
+In PowerShell, run the following command and compare its result with the release checksum. Replace the example filename with the name of your downloaded installer:
 
 ```powershell
-Get-FileHash '.\Start-Studio-Setup-<versão>-x64.exe' -Algorithm SHA256
+Get-FileHash '.\Start-Studio-Setup-<version>-x64.exe' -Algorithm SHA256
 ```
 
-### Se o Microsoft Edge mostrar um aviso no download
+<a id="se-o-microsoft-edge-mostrar-um-aviso-no-download"></a>
 
-O Edge pode informar que o instalador **“isn't commonly downloaded”** (não é baixado com frequência). Se você conferiu que o download vem deste repositório e decidiu continuar, siga os passos abaixo. Os nomes dos botões estão em inglês; podem variar conforme o idioma e a versão do navegador.
+### If Microsoft Edge displays a download warning
 
-1. Abra o painel **Downloads** pelo ícone de download do Edge ou pelo atalho **Ctrl+J**.
-2. Passe o mouse sobre o aviso ao lado de `Start-Studio-Setup-<versão>-x64.exe`. Clique nos **três pontos (…)** do próprio arquivo e escolha **Keep**.
-3. Na janela de confirmação, clique na **seta para baixo (▼) ao lado do botão Delete**. No menu que abrir, escolha **Keep anyway**. Clicar diretamente em **Delete** exclui o download.
-4. Aguarde o download terminar. Depois, abra o instalador na pasta Downloads e siga o assistente de instalação.
+Edge may report that the installer **“isn't commonly downloaded.”** If you have verified that the download comes from this repository and have decided to continue, follow these steps. Button labels may vary depending on your browser version and language.
 
-Em algumas versões do Edge, é necessário clicar em **Show more** antes de aparecer **Keep anyway**. A [documentação da Microsoft](https://learn.microsoft.com/en-us/troubleshoot/microsoft-edge/development/download-failures#check-security-and-smartscreen-settings) descreve esse fluxo. Estas instruções se referem ao aviso de download pouco conhecido; não exigem desativar o SmartScreen ou o antivírus.
+1. Open Edge's **Downloads** panel using the download icon or **Ctrl+J**.
+2. Hover over the warning next to `Start-Studio-Setup-<version>-x64.exe`. Click the file's **three-dot menu (…)** and select **Keep**.
+3. In the confirmation dialog, click the **down arrow (▼) next to Delete**, then select **Keep anyway**. Clicking **Delete** itself removes the download.
+4. Wait for the download to finish. Open the installer from your Downloads folder and follow the setup wizard.
 
-## Seus arquivos
+Some Edge versions require you to select **Show more** before **Keep anyway** appears. [Microsoft's documentation](https://learn.microsoft.com/en-us/troubleshoot/microsoft-edge/development/download-failures#check-security-and-smartscreen-settings) describes this process. These instructions apply to the uncommon-download warning and do not require disabling SmartScreen or antivirus protection.
 
-As alterações feitas no aplicativo são salvas na pasta de páginas escolhida. Os HTMLs, imagens incorporadas e backups ficam separados da instalação. Use `start.html` como página inicial do navegador. O aplicativo permite mover a pasta de dados, exportar o conjunto e restaurar backups como novas páginas.
+## Your files
 
-Este repositório contém somente informações e arquivos de distribuição. Nenhuma biblioteca pessoal de links é incluída no instalador.
+Changes made in the application are saved in your chosen pages folder. Your HTML pages, embedded images, and backups are stored separately from the application. Set `start.html` as your browser's start page. The application lets you move the data folder, export your pages, and restore backups as new pages.
 
-Software gratuito. [DATACG](https://datacg.net/startstudio)
+This repository contains product information and distribution files only. The installer does not include a personal link library.
+
+## Support development
+
+Start Studio is free to use. If it makes your day easier, you can make a voluntary contribution to support its development and other free DATACG projects.
+
+**[Support DATACG on Ko-fi](https://ko-fi.com/datacg)**
+
+[Visit the Start Studio page on DATACG](https://datacg.net/startstudio/)
