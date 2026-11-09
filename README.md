@@ -12,6 +12,8 @@ Organize your links into collections, customize symbols, emojis, favicons, and a
 
 Open the release page and download `Start-Studio-Setup-<version>-x64.exe`. The application includes the components it needs; you do not need to install Node.js or Git. The installer lets you choose separate folders for the application and your pages.
 
+See what changed in each version in the [release notes](CHANGELOG.md).
+
 **The current installer is not digitally signed. Windows may display security warnings.** Each release lists its version and includes a `.sha256` file so you can verify the download.
 
 In PowerShell, run the following command and compare its result with the release checksum. Replace the example filename with the name of your downloaded installer:
