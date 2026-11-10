@@ -2,7 +2,7 @@
 
 # Start Studio
 
-A visual editor for personal start pages, developed by **Juliano Oliveira / DATACG with support from Codex**.
+A visual editor for personal start pages, developed by **Juliano Oliveira / DATACG**.
 
 Organize your links into collections, customize symbols, emojis, favicons, and appearance, and use your saved HTML pages offline. The interface is available in Brazilian Portuguese, US English, Danish, and Italian. New installations start empty, with no personal links or data.
 
@@ -40,6 +40,26 @@ Some Edge versions require you to select **Show more** before **Keep anyway** ap
 Changes made in the application are saved in your chosen pages folder. Your HTML pages, embedded images, and backups are stored separately from the application. Set `start.html` as your browser's start page. The application lets you move the data folder, export your pages, and restore backups as new pages.
 
 This repository contains product information and distribution files only. The installer does not include a personal link library.
+
+## Privacy
+
+Start Studio does not require an account and does not collect usage data. It connects to the internet only when you ask it to: to download favicons for your links or to check for updates. Your pages work offline, with images embedded in the HTML files.
+
+## Built with
+
+Start Studio is a Windows desktop application. Its editor and the pages it creates are written in plain JavaScript, HTML, and CSS, without a front-end framework.
+
+| Area | Tools |
+| --- | --- |
+| Languages | JavaScript (ES modules), HTML, CSS |
+| Desktop application | [Electron](https://www.electronjs.org/), which bundles Chromium and Node.js |
+| Installer and updates | [electron-builder](https://www.electron.build/) (NSIS installer for Windows x64) and electron-updater, with updates delivered through GitHub Releases |
+| Testing | Node.js test runner, [Playwright](https://playwright.dev/) for browser and desktop tests, and [axe-core](https://github.com/dequelabs/axe-core) for WCAG accessibility checks |
+| Code style | [Prettier](https://prettier.io/) |
+| Build and release | GitHub Actions on Windows, which runs every test before building the installer for a release |
+| Interface languages | Brazilian Portuguese, US English, Danish, and Italian |
+
+**Development.** Designed and developed by Juliano Oliveira (DATACG), with AI coding assistants: [Codex](https://openai.com/codex/) by OpenAI and [Claude Code](https://www.anthropic.com/claude-code) by Anthropic.
 
 ## Support development
 
