@@ -12,7 +12,7 @@ Organize your links into collections, customize symbols, emojis, favicons, and a
 
 Open the release page and download `Start-Studio-Setup-<version>-x64.exe`. The application includes the components it needs; you do not need to install Node.js or Git. The installer lets you choose separate folders for the application and your pages.
 
-See what changed in each version in the [release notes](CHANGELOG.md).
+See what changed in each version in the [release notes](CHANGELOG.md). Once installed, Start Studio can update itself: use **Check for updates** on the My pages screen.
 
 **The current installer is not digitally signed. Windows may display security warnings.** Each release lists its version and includes a `.sha256` file so you can verify the download.
 

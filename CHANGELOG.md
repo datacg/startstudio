@@ -2,6 +2,12 @@
 
 Installers for each version are available on the [Releases page](https://github.com/datacg/startstudio/releases). Installed copies can update through **Check for updates** in the application.
 
+## 1.4.1 — November 2026
+
+- **Check for updates from My pages.** The first screen of the app shows the installed version and a **Check for updates** button. When a new version is available, you can download and install it from there. The button is still available under Settings → Windows application.
+- **Version in the footer.** The credits now show the Start Studio version, including on exported pages.
+- **Updated credits.** The footer notes that the app was developed with Codex and Claude Code.
+
 ## 1.4.0 — November 2026
 
 - **Transparent logos.** PNG logos keep their transparent background. Under **Logo background**, choose Transparent, Light plate, or Dark plate; the plates take a light tint of the page's accent color.
@@ -11,6 +17,7 @@ Installers for each version are available on the [Releases page](https://github.
 - **Dark mode in the editor.** The editor, dialogs, and My pages follow the Windows dark mode setting. The preview and your saved pages keep the theme you chose.
 - **More consistent colors.** Missing or invalid colors now come from the page's own theme.
 - **Safer pages.** Text typed into a page is always treated as text, never as code.
+- **More reliable folder moves.** When an interrupted move of the data folder is resumed, the app recognizes the new folder even if Windows spells the same path differently.
 
 ## 1.3.1 — October 2026
 
