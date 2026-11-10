@@ -2,6 +2,11 @@
 
 Installers for each version are available on the [Releases page](https://github.com/datacg/startstudio/releases). Installed copies can update through **Check for updates** in the application.
 
+## 1.4.2 — November 2026
+
+- **Update notifications.** When Start Studio opens, it checks for a new version. If one is available, it offers to download it and then to install it, after saving your changes.
+- **You stay in control.** Choose **Not now** to keep working, or turn the startup check off under Settings → Windows application. **Check for updates** on My pages still works at any time.
+
 ## 1.4.1 — November 2026
 
 - **Check for updates from My pages.** The first screen of the app shows the installed version and a **Check for updates** button. When a new version is available, you can download and install it from there. The button is still available under Settings → Windows application.

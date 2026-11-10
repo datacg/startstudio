@@ -12,7 +12,7 @@ Organize your links into collections, customize symbols, emojis, favicons, and a
 
 Open the release page and download `Start-Studio-Setup-<version>-x64.exe`. The application includes the components it needs; you do not need to install Node.js or Git. The installer lets you choose separate folders for the application and your pages.
 
-See what changed in each version in the [release notes](CHANGELOG.md). Once installed, Start Studio can update itself: use **Check for updates** on the My pages screen.
+See what changed in each version in the [release notes](CHANGELOG.md). Once installed, Start Studio lets you know when a new version is available, and you can download and install it from the app. You can also use **Check for updates** on the My pages screen.
 
 **The current installer is not digitally signed. Windows may display security warnings.** Each release lists its version and includes a `.sha256` file so you can verify the download.
 
@@ -43,7 +43,7 @@ This repository contains product information and distribution files only. The in
 
 ## Privacy
 
-Start Studio does not require an account and does not collect usage data. It connects to the internet only when you ask it to: to download favicons for your links or to check for updates. Your pages work offline, with images embedded in the HTML files.
+Start Studio does not require an account and does not collect usage data. When it opens, it checks GitHub for a new version; you can turn this off under Settings → Windows application. Otherwise, it connects to the internet only when you ask it to: to download favicons for your links or to check for updates. Your pages work offline, with images embedded in the HTML files.
 
 ## Built with
 
