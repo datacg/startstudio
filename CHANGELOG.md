@@ -2,6 +2,14 @@
 
 Installers for each version are available on the [Releases page](https://github.com/datacg/startstudio/releases). Installed copies can update through **Check for updates** in the application.
 
+## 1.4.3 — November 2026
+
+- **A redesigned My pages.** Your pages now appear as cards, side by side, instead of one full-width row each. **Open**, **Rename page**, and **Delete page** sit at the bottom of each card.
+- **Reorder your pages.** Drag a card, or use the arrow buttons, to change the order. The first page is marked **Opens first**, because it's the page start.html opens by default.
+- **Transparent logos on My pages.** Logos now sit directly on the card, so transparent images stay transparent. A light or dark plate still appears if you chose one under **Logo background**.
+- **A cleaner first screen.** The app version and **Check for updates** moved to the footer, and they stand out only when an update is available. **Browser setup** now sits next to the start.html tip.
+- **Small screens.** The buttons for creating and importing pages stack neatly on narrow windows.
+
 ## 1.4.2 — November 2026
 
 - **Update notifications.** When Start Studio opens, it checks for a new version. If one is available, it offers to download it and then to install it, after saving your changes.
