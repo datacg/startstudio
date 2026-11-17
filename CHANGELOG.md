@@ -2,6 +2,11 @@
 
 Installers for each version are available on the [Releases page](https://github.com/datacg/startstudio/releases). Installed copies can update through **Check for updates** in the application.
 
+## 1.4.4 — November 2026
+
+- **Fresh installations work again.** The installer no longer rejects a new folder at the **Your pages folder** step, including the suggested C:\startstudio. You can choose any writable folder outside the program folder, and the installer creates it for you.
+- **Clearer folder checks.** Enter a full path, such as D:\startstudio. If a folder can't be used, the installer removes any empty folder it just created and asks you to choose another one.
+
 ## 1.4.3 — November 2026
 
 - **A redesigned My pages.** Your pages now appear as cards, side by side, instead of one full-width row each. **Open**, **Rename page**, and **Delete page** sit at the bottom of each card.
