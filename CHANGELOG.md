@@ -2,6 +2,14 @@
 
 Installers for each version are available on the [Releases page](https://github.com/datacg/startstudio/releases). Installed copies can update through **Check for updates** in the application.
 
+## 1.6.0 — November 2026
+
+- **A notification bell.** The **Notifications** bell at the top of the app shows how many updates your watched links have, across all your pages. When news arrives, the app's taskbar button also flashes, so you won't miss it even if the Windows notification goes by.
+- **All your notifications in one place.** The bell opens your notifications. Show all, new, or read ones; open the link or show it on its page; mark each one as read or unread; and delete them one by one or all at once. The **Watched links** tab lists every link you watch, with its rule, how often it's checked, and the last check, plus **Check now** and **Edit**.
+- **Know when a term disappears.** Besides a page change or a term that appears, a link can now notify you when a term disappears from the page, such as "Applications open".
+- **Easier to spot.** Collections show their updates as a badge in the corner of the card. On your start page in the browser, a bell in the header shows that page's news; marking it as read there applies to that browser only.
+- Alerts from version 1.5.0 carry over as unread notifications.
+
 ## 1.5.0 — November 2026
 
 - **Watch a page for updates.** Edit a link and turn on **Watch this page**. Start Studio can notify you when the page changes, or when a term appears on it, such as the number of the next version of a standard. Choose how often to check: every hour, every 6 hours, or once a day. **Test now** shows whether the term is already on the page.
