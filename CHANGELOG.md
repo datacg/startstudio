@@ -2,6 +2,16 @@
 
 Installers for each version are available on the [Releases page](https://github.com/datacg/startstudio/releases). Installed copies can update through **Check for updates** in the application.
 
+## 1.5.0 — November 2026
+
+- **Watch a page for updates.** Edit a link and turn on **Watch this page**. Start Studio can notify you when the page changes, or when a term appears on it, such as the number of the next version of a standard. Choose how often to check: every hour, every 6 hours, or once a day. **Test now** shows whether the term is already on the page.
+- **Know what changed.** When there's news, Windows shows a notification, and the link gets a badge that also appears on your start page in the browser. Collections and My pages show how many updates are waiting. The link window lists earlier updates, and **Mark as seen** clears the alert.
+- **Keep checking in the background (optional).** Under Settings → Windows application, **Check watched links in the background** keeps Start Studio in the notification area when you close the window and starts it with Windows. It's off by default.
+- **Smarter search.** Search ignores accents and finds links that contain every word, in any order. Use quotes for an exact phrase, a hyphen to exclude a word, and `col:` to search specific collections. Results are grouped by collection.
+- **Back and Forward work.** The page address remembers the open collection, so your browser's Back button returns you to it, including after you open a link.
+- **Easier dialogs.** Dialogs open with the cursor in the first field, and clicking outside closes them. If you've typed something, Start Studio asks first.
+- **Clearer arrows.** The arrows that reorder links now point left and right.
+
 ## 1.4.4 — November 2026
 
 - **Fresh installations work again.** The installer no longer rejects a new folder at the **Your pages folder** step, including the suggested C:\startstudio. You can choose any writable folder outside the program folder, and the installer creates it for you.
