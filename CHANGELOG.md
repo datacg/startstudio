@@ -2,6 +2,11 @@
 
 Installers for each version are available on the [Releases page](https://github.com/datacg/startstudio/releases). Installed copies can update through **Check for updates** in the application.
 
+## 1.7.0 — November 2026
+
+- **My pages is always at hand.** In the editor, a highlighted **My pages** button sits next to the Start Studio logo, followed by the name of the page you're editing. One click takes you back to create, rename, delete, and reorder your pages. In the app's preview, **My pages** is in the page header.
+- **Edit in Start Studio.** Your pages and start.html now open in the browser ready to use, with links, search, collections, and notifications. To change a page, select **Edit in Start Studio** at the top: the app opens on that same page. The first time, your browser asks for permission to open the app. Editing now happens only in the app, which has My pages, autosave, and link watching.
+
 ## 1.6.0 — November 2026
 
 - **A notification bell.** The **Notifications** bell at the top of the app shows how many updates your watched links have, across all your pages. When news arrives, the app's taskbar button also flashes, so you won't miss it even if the Windows notification goes by.

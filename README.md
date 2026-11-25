@@ -37,7 +37,7 @@ Some Edge versions require you to select **Show more** before **Keep anyway** ap
 
 ## Your files
 
-Changes made in the application are saved in your chosen pages folder. Your HTML pages, embedded images, and backups are stored separately from the application. Set `start.html` as your browser's start page. The application lets you move the data folder, export your pages, and restore backups as new pages.
+Changes made in the application are saved in your chosen pages folder. Your HTML pages, embedded images, and backups are stored separately from the application. Set `start.html` as your browser's start page. In the browser, your pages are ready to use; to change one, select **Edit in Start Studio** at the top of the page, and the app opens on it. The application lets you move the data folder, export your pages, and restore backups as new pages.
 
 This repository contains product information and distribution files only. The installer does not include a personal link library.
 
