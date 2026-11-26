@@ -2,6 +2,15 @@
 
 Installers for each version are available on the [Releases page](https://github.com/datacg/startstudio/releases). Installed copies can update through **Check for updates** in the application.
 
+## 1.9.0 — November 2026
+
+- **Drag cards to move them.** In the editor, drag a link or collection card in the preview to change its place. Drop it on a collection's card to put it inside, on a level of the breadcrumb to move it up, or on the edge of another card to change the order. The reorder arrows are gone from the cards and from the sidebar.
+- **A ⋯ menu on every card.** **Move to…**, **Duplicate**, **Watch this page**, and **Delete** are one click away, and the menu works with the keyboard. **Move to…** puts a link or a collection anywhere in the tree without dragging. The link window (**Collection**) and the collection window (**Inside**) still move things too.
+- **More room at the top.** Inside a collection, the breadcrumb is the page title (⌂ All collections › Work › Clients), and the welcome text steps aside, so your links start higher on the screen.
+- **Undo, right in the notice.** Deleting a link no longer asks first: the notice that appears offers **Undo**. Deleting a collection still asks, and offers Undo too.
+- **Clearer tabs.** The editor tabs are now **Appearance · Content · Options**. Updates and background checks moved to **App settings**, behind the gear at the top of the window.
+- **Helpful tooltips.** Buttons explain themselves when you point at them or reach them with the keyboard. Press Esc to hide a tooltip.
+
 ## 1.8.0 — November 2026
 
 - **Collections inside collections.** A collection can now hold other collections, as many levels deep as you need, so similar links stay together. Use **New subcollection** in an open collection, or choose **Inside** in the collection window. Cards show everything they hold, such as "2 subcollections · 14 links".

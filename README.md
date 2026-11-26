@@ -4,7 +4,7 @@
 
 A visual editor for personal start pages, developed by **Juliano Oliveira / DATACG**.
 
-Organize your links into collections and subcollections, as many levels deep as you need, sort them from A to Z, customize symbols, emojis, favicons, and appearance, and use your saved HTML pages offline. Watch a link's page, and Start Studio notifies you when it changes or when a term you choose appears on it or disappears from it. The interface is available in Brazilian Portuguese, US English, Danish, and Italian. New installations start empty, with no personal links or data.
+Organize your links into collections and subcollections, as many levels deep as you need, move them by dragging their cards, sort them from A to Z, customize symbols, emojis, favicons, and appearance, and use your saved HTML pages offline. Watch a link's page, and Start Studio notifies you when it changes or when a term you choose appears on it or disappears from it. The interface is available in Brazilian Portuguese, US English, Danish, and Italian. New installations start empty, with no personal links or data.
 
 ## Download for Windows
 
@@ -43,7 +43,7 @@ This repository contains product information and distribution files only. The in
 
 ## Privacy
 
-Start Studio does not require an account and does not collect usage data. When it opens, it checks GitHub for a new version; you can turn this off under Settings → Windows application. If you turn on **Watch this page** for a link, the app downloads that page at the interval you choose, directly from the website, to compare its text. Otherwise, it connects to the internet only when you ask it to: to download favicons for your links or to check for updates. Your pages work offline, with images embedded in the HTML files.
+Start Studio does not require an account and does not collect usage data. When it opens, it checks GitHub for a new version; you can turn this off under App settings, behind the gear at the top of the window. If you turn on **Watch this page** for a link, the app downloads that page at the interval you choose, directly from the website, to compare its text. Otherwise, it connects to the internet only when you ask it to: to download favicons for your links or to check for updates. Your pages work offline, with images embedded in the HTML files.
 
 ## Built with
 
