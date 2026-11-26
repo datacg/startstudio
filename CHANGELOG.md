@@ -2,6 +2,16 @@
 
 Installers for each version are available on the [Releases page](https://github.com/datacg/startstudio/releases). Installed copies can update through **Check for updates** in the application.
 
+## 1.8.0 — November 2026
+
+- **Collections inside collections.** A collection can now hold other collections, as many levels deep as you need, so similar links stay together. Use **New subcollection** in an open collection, or choose **Inside** in the collection window. Cards show everything they hold, such as "2 subcollections · 14 links".
+- **Always know where you are.** A clearer breadcrumb at the top shows every level (All collections › Work › Clients), and each level is one click away. **Back** goes up one level, and search looks through every level and shows where each result lives.
+- **Collections and links as a tree.** In the editor's sidebar, expand a collection to see its subcollections and links. Drag by the handle to reorder, or drop an item on the middle of a collection to put it inside. The up and down arrows are still there, now larger and with tooltips. A filter finds any collection or link, and you can drag the sidebar's edge to make it wider.
+- **A to Z, or Z to A.** Sort everything at once, at every level, with one click, and use Undo to go back. Or keep your top-level collections, or any collection, always in alphabetical order. Numbers sort the way you expect: 2 comes before 10.
+- **Bookmark folders stay folders.** Importing bookmarks from your browser now keeps the folders inside folders as subcollections.
+- **Watched links stand out.** Links you watch show a small bell. When you open a notification with **Show on page**, the link's card flashes so you see it right away.
+- Pages with subcollections need this version or later.
+
 ## 1.7.0 — November 2026
 
 - **My pages is always at hand.** In the editor, a highlighted **My pages** button sits next to the Start Studio logo, followed by the name of the page you're editing. One click takes you back to create, rename, delete, and reorder your pages. In the app's preview, **My pages** is in the page header.
