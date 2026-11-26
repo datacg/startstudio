@@ -2,6 +2,17 @@
 
 Installers for each version are available on the [Releases page](https://github.com/datacg/startstudio/releases). Installed copies can update through **Check for updates** in the application.
 
+## 2.0.0 — November 2026
+
+- **Sections inside a collection.** Split a collection's links under titles, such as "Documentation" and "Tools", without adding another level to click through. Use **New section** in an open collection, then drag links onto a section's title. The **Section** field in the link window and in **Move to…** does the same. Drag a section's title to reorder it, or use **Move up** and **Move down** in its ⋯ menu. Deleting a section keeps its links.
+- **Command palette.** Press **Ctrl+K** and type part of a link's name, a collection, or an action, such as "New link". Choose with the arrow keys and press Enter. The **/** key now takes you to the page search.
+- **Select several links at once.** Ctrl+click cards in the preview, or Shift+click to select a range, then move or delete them together from the bar at the bottom. **Select** is also in each link's ⋯ menu, and Esc clears the selection.
+- **Duplicate links.** The link window tells you when an address is already somewhere else on the page, and **Duplicate links** in the command palette lists every repeated address so you can clean up.
+- **Check links.** In the Windows app, **Check links** in the command palette opens each address and lists the links that no longer answer or that moved to a new address. One click switches a link to its new address.
+- **Most used or recently opened.** Under **Options → List at the top of the page**, show your most used or most recently opened links above your collections. The count stays on your device, and nothing is sent anywhere.
+- **A cleaner title inside a collection.** The collection's name is the page title, with the levels above it on the line below.
+- Pages with sections need this version or later.
+
 ## 1.9.0 — November 2026
 
 - **Drag cards to move them.** In the editor, drag a link or collection card in the preview to change its place. Drop it on a collection's card to put it inside, on a level of the breadcrumb to move it up, or on the edge of another card to change the order. The reorder arrows are gone from the cards and from the sidebar.
